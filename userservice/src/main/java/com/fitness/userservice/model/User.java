@@ -7,31 +7,29 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
-
-@Entity
-@Table(name="users")
-@Data
+@Entity // Marks this class as a database entity
+@Table(name="users") // Maps to "users" table in the database
+@Data // Lombok generates getters, setters, toString, etc.
 public class User {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
+    @Id // Primary key
+    @GeneratedValue(strategy = GenerationType.UUID) // Auto-generates a UUID for id
     private String id;
 
-    @Column(unique = true, nullable = false)
+    @Column(unique = true, nullable = false) // Email must be unique and not null
     private String email;
 
-    @Column(nullable = false)
+    @Column(nullable = false) // Password cannot be null
     private String password;
     private String firstName;
     private String lastName;
 
-    @Enumerated(EnumType.STRING)
-    private UserRole role = UserRole.USER;
+    @Enumerated(EnumType.STRING) // Stores enum as a string in the DB
+    private UserRole role = UserRole.USER; // Default role is USER
 
-    @CreationTimestamp
+    @CreationTimestamp // Automatically set when record is created
     private LocalDateTime createdAt;
-    
-    @UpdateTimestamp
-    private LocalDateTime updatedAt;
 
+    @UpdateTimestamp // Automatically updated on changes
+    private LocalDateTime updatedAt;
 }
