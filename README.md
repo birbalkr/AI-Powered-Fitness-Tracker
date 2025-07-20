@@ -15,7 +15,7 @@ This is a Spring Boot-based User Service for a fitness tracking application. It 
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 - **Java 17+**
 - **Spring Boot**
@@ -28,12 +28,27 @@ This is a Spring Boot-based User Service for a fitness tracking application. It 
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
-com.fitness.userservice
-├── controller # REST API endpoints
-├── dto # DTOs for requests & responses
-├── model # JPA entity (User)
-├── repository # UserRepository (JPA interface)
-├── service # UserService (business logic)
-└── UserserviceApplication.java
+## com.fitness.userservice  
+├── controller              # REST API endpoints (e.g., UserController)  
+│   └── UserController.java  
+│  
+├── dto                     # Data Transfer Objects (used for requests and responses)  
+│   ├── RegisterRequest.java  
+│   └── UserResponse.java  
+│  
+├── model                   # JPA entities and enums  
+│   └── User.java  
+│  
+├── repository              # Database access layer (Spring Data JPA)  
+│   └── UserRepository.java  
+│  
+├── service                 # Business logic layer  
+│   └── UserService.java  
+│  
+└── UserserviceApplication.java   # Main Spring Boot application class
+
+
+
+
