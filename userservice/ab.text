@@ -1,0 +1,562 @@
+    1  ls
+    2  tar -xf android-studio-2025.1.1.14-linux.tar.gz
+    3  clear
+    4  ls
+    5  cd android-studio
+    6  ls
+    7  cd bin
+    8  ls
+    9  sudo ./studio.sh
+   10  cd /media/black_lotus/Ventoy/
+   11  ls
+   12  cd kali
+   13  ls
+   14  clear
+   15  cd ../
+   16  ls
+   17  cd garuda-wallpapers
+   18  ls
+   19  clear
+   20  ls
+   21  cd ../
+   22  ls
+   23  sudo mv kali /usr/share/backgrounds/
+   24  sudo mv kali /usr/share/backgrounds/kali
+   25  cd /usr/share/backgrounds/kali
+   26  ls
+   27  open .
+   28  sudo open .
+   29  sudo apt update
+   30  sudo apt upgrade
+   31  sudo apt install npm nodejs virtualbox-qt
+   32  clear
+   33  sudo apt upgrade
+   34  sudo apt install curl\n\nsudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg\n\nsudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources\n\nsudo apt update\n\nsudo apt install brave-browser
+   35  cd Downloads
+   36  ls
+   37  sudo apt install ./code_1.102.0-1752099874_amd64.deb
+   38  curl -sS https://download.spotify.com/debian/pubkey_C85668DF69375001.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg\necho "deb https://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+   39  sudo apt-get update && sudo apt-get install spotify-client
+   40  sudo apt upgrade
+   41  sudo /media/black_lotus/Ventoy
+   42  cd /media/black_lotus/Ventoy
+   43  ls
+   44  mv 1.jpg 2.jpg 4.jpg 5.jpg /home/black_lotus/Pictures
+   45  clear
+   46  docker run hello-world
+   47  clear
+   48  docker image
+   49  docker images
+   50  docker rmi 00942de96276
+   51  sudo docker rmi 00942de96276
+   52  docker images
+   53  clear
+   54  docker images
+   55  docker ps
+   56  docker ps -all
+   57  docker rm 8a3c69a534d5
+   58  docker images
+   59  docker rmi 00942de96276
+   60  clear
+   61  docker images
+   62  clear
+   63  docker pull codeadmin870/chat-bot:02
+   64  docker login
+   65  docker pull codeadmin870/chat-bot:02
+   66  docker images
+   67  sudo docker images
+   68  sudo docker pull codeadmin870/chat-bot:02
+   69  sudo docker run -p 8080:8080 codeadmin870/chat-bot:02
+   70  clear
+   71  docker run -p 8080:8080 codeadmin870/chat-bot:02
+   72  docker pull codeadmin870/chat-bot:02
+   73  sudo usermod -aG docker $USER\n
+   74  docker images
+   75  sudo systemctl status docker\n
+   76  docker pull codeadmin870/chat-bot:02
+   77  sudo systemctl start docker\n
+   78  docker pull codeadmin870/chat-bot:02
+   79  sudo usermod -aG docker $USER\n
+   80  docker run hello-world\n
+   81  sudo systemctl status docker\n
+   82  sudo systemctl enable docker\n
+   83  docker run hello-world\n
+   84  newgrp docker
+   85  sudo apt install docker.io docker-compose docker-cli
+   86  git clone git@github.com:birbalkr/Chat-bot.git
+   87  ls
+   88  clear
+   89  mkdir Project_Cyber
+   90  open .
+   91  docker login
+   92  clear
+   93  cd Downloads
+   94  ls
+   95  rm android-studio-2025.1.1.14-linux.tar.gz
+   96  rm android-studio-2025.1.1.14-linux.tar.gz ideaIC-2025.1.3.tar.gz postman-linux-x64 code_1.102.0-1752099874_amd64.deb
+   97  clear
+   98  ls
+   99  rm postman-linux-x64.tar.gz
+  100  ls
+  101  cd postman-linux-x64
+  102  ls
+  103  sudo ln -s /opt/Postman/Postman /usr/bin/postman\n
+  104  nano ~/.local/share/applications/postman.desktop\n
+  105  cp Postman /opt
+  106  sudo cp Postman /opt
+  107  sudo cp -r Postman /opt
+  108  nano ~/.local/share/applications/postman.desktop\n
+  109  sudo ln -s /opt/Postman/Postman /usr/bin/postman\n
+  110  sudo rm /usr/bin/postman\nsudo ln -s /opt/Postman/Postman /usr/bin/postman\n
+  111  postman\n
+  112  ssh-keygen -t rsa -b 4096 -C "birbalkr1435@gmail.com"
+  113  eval "$(ssh-agent -s)"
+  114  ssh-add ~/.ssh/id_rsa
+  115  cat ~/.ssh/id_rsa.pub 
+  116  cd ~/Project_Cyber/Project
+  117  ls
+  118  git clone git@github.com:birbalkr/Chat-bot.git
+  119  clear
+  120  ls
+  121  cd Chat-bot
+  122  ls
+  123  cd gemini-chat-frontend
+  124  ls
+  125  npm run start
+  126  npm i
+  127  npm run start
+  128  npm run dev
+  129  cd Project_Cyber/Project/Chat-bot/gemini-chat-frontend
+  130  npm run dev
+  131  exit
+  132  docker pull codeadmin870/chat-bot:02
+  133  docker login
+  134  docker pull codeadmin870/chat-bot:02
+  135  sudo usermod -aG docker $USER\n
+  136  newgrp docker\n
+  137  docker ps\n
+  138  sudo systemctl status docker\n
+  139  docker pull codeadmin870/chat-bot:02
+  140  docker run -p 8080:8080 codeadmin870/chat-bot:02
+  141  docker ps -all
+  142  docker rm 2eb43236e840
+  143  docker rmi 00942de96276
+  144  docker images
+  145  docker ps
+  146  docker ps -all
+  147  sudo systemctl start bluetooth.service
+  148  clear
+  149  docker pull codeadmin870/chat-bot:02
+  150  docker ps
+  151  docker pull codeadmin870/chat-bot:02
+  152  sudo systemctl start bluetooth.service
+  153  docker run -p 8080:8080 codeadmin870/chat-bot:02
+  154  exit
+  155  recordmydesktop -g
+  156  recordmydesktop -G
+  157  recordmydesktop G
+  158  ls
+  159  open out.ogv
+  160  exit
+  161  npm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p
+  162  npm install tailwindcss @tailwindcss/vite
+  163  cd Project_Cyber/Project/Chat-bot/gemini-chat-frontend
+  164  ls
+  165  code .
+  166  npm run dev
+  167  cd ../
+  168  ls
+  169  cd ../
+  170  ls
+  171  mkdir spring-boot
+  172  ls
+  173  mv Chat-bot spring-boot
+  174  ls
+  175  cd spring-boot
+  176  ls
+  177  cd Chat-bot
+  178  ls
+  179  cd ../../../
+  180  ls
+  181  cd Project
+  182  ls
+  183  git clone git@github.com:birbalkr/portfolio.git
+  184  cd portfolio
+  185  ls
+  186  code .
+  187  npm run dev
+  188  npm i
+  189  clear
+  190  npm run dev
+  191  sudo modprobe vboxdrv\n
+  192  ls
+  193  cd ../
+  194  ls
+  195  npm create vite@lalest
+  196  docker images
+  197  npm create vite@latest
+  198  ls
+  199  cd blog-portfolio
+  200  git init
+  201  git remote add origin git@github.com:birbalkr/blog-portfolio.git
+  202  git commit -m "Setup blogs"
+  203  git config --global user.email "birbalkr1435@gmail.com"
+  204  git config --global user.name "birbalkr"
+  205  git commit -m "Setup blogs"
+  206  git add ..
+  207  git commit -m "Setup blogs"
+  208  git add .
+  209  git commit -m "Setup blogs"
+  210  git push -u origin master
+  211  ls
+  212  npm run build
+  213  ls
+  214  npm build
+  215  npm run build
+  216  ls
+  217  npm i
+  218  npm run build 
+  219  git add .
+  220  git commit -m "bulid demo blogs"
+  221  git push -u origin master
+  222  ls
+  223  code .
+  224  ls
+  225  git add .
+  226  git commit -m "setup tailwind css"
+  227  git push -u origin master
+  228  clear
+  229  cd
+  230  sudo modprobe vboxdrv\n
+  231  sudo apt install linux-headers-$(uname -r)\n
+  232  sudo modprobe vboxdrv\n
+  233  sudo apt update\nsudo apt install --reinstall virtualbox-dkms linux-headers-$(uname -r)\n
+  234  uname -r
+  235  sudo modprobe vboxdrv\n
+  236  reboot
+  237  sudo apt upgrade
+  238  sudo apt autoremove
+  239  sudo apt update
+  240  sudo apt upgrade -y
+  241  clear
+  242  exit
+  243  npm run dev
+  244  sudo systemctl start bluetooth.service
+  245  ls
+  246  git add .
+  247  ls
+  248  git commit -m "update"
+  249  ls
+  250  clear
+  251  ls
+  252  clear
+  253  git push -u origin main
+  254  ifconfig
+  255  clear
+  256  nmap -h
+  257  nmap 192.168.1.9 -O --osscan-limit --osscan-guess
+  258  nmap 192.168.1.9 -O
+  259  nmap 192.168.1.10 -O
+  260  nmap 192.168.1.7 -O
+  261  ping 192.168.1.10
+  262  clear
+  263  ping 192.168.1.9
+  264  ping 192.168.1.7
+  265  sudo service start msf
+  266  sudo service msf
+  267  sudo start service msf
+  268  sudo start msf
+  269  sudo start msfdb
+  270  sudo service msfdb
+  271  sudo start msfdb
+  272  clear
+  273  searchsploit ms-wbt-server
+  274  searchsploit window 10
+  275  sudo systemctl start msfdb
+  276  sudo systemctl msfdb
+  277  sudo systemctl msfdb start
+  278  sudo msfdb start
+  279  sudo start msfdb
+  280  clear
+  281  msfconsole
+  282  clear
+  283  exit
+  284  git add .
+  285  git commit -m "what i do 'update'"
+  286  git log
+  287  clear
+  288  git push -u origin main
+  289  ls
+  290  npm install @heroicons/react\n
+  291  ls
+  292  clear
+  293  open .
+  294  ifconfig
+  295  sudo systemctl docker stop
+  296  sudo service stop docker
+  297  docker
+  298  sudo docker stop
+  299  sudo systemctl stop docker
+  300  sudo systemctl stop docker.socket
+  301  ifconfig
+  302  sudo systemctl status docker
+  303  sudo systemctl disable docker
+  304  ifconfig
+  305  sudo systemctl stop docker-desktop
+  306  clear
+  307  ifconfig
+  308  clear
+  309  arpspoof
+  310  ls
+  311  git add .
+  312  git commit -m "update"
+  313  git push -u origin main
+  314  git add .
+  315  git commit -m "utils update"
+  316  git push -u origin main
+  317  npm run dev
+  318  cd Project_Cyber/Project/Chat-bot/gemini-chat-frontend
+  319  ls
+  320  cd Project_Cyber/Project/
+  321  ld
+  322  ls
+  323  cd spring-boot
+  324  clear
+  325  ls
+  326  cd Chat-bot/gemini-chat-frontend
+  327  ls
+  328  clear
+  329  npm run dev
+  330  cd ../../
+  331  ls
+  332  ../
+  333  cd ../
+  334  ls
+  335  cleaR
+  336  clear
+  337  cd Project
+  338  ls
+  339  cd portfolio
+  340  ls
+  341  npm run dev
+  342  javac -version
+  343  javac
+  344  javac -version
+  345  javac
+  346  exit
+  347  java -version
+  348  sudo systemctl start bluetooth.service
+  349  sudo update-alternatives --config java
+  350  sudo update-alternatives --config javac
+  351  sudo apt-cache search openjdk
+  352  sudo apt install openjdk-16-jdk
+  353  sudo apt install openjdk-21-jdk
+  354  ls
+  355  ./mvnw clean install
+  356  ./mvnw package\n
+  357  cd Project_Cyber/Project
+  358  ls
+  359  cd spring-boot
+  360  ls
+  361  cd SpringAiDemo
+  362  ls
+  363  code .
+  364  clear
+  365  cd ../../
+  366  ls
+  367  cd portfolio
+  368  ls
+  369  clear
+  370  ls
+  371  cd Project_Cyber/Project/portfolio
+  372  ls
+  373  code .
+  374  npm run dev
+  375  sudo apt install obsidian
+  376  sudo apt remove needrestart\n
+  377  clear
+  378  sudo apt update
+  379  sudo apt upgrade
+  380  sudo apt autoremove
+  381  sudo apt autoclean
+  382  clear
+  383  sudo apt upgrade
+  384  clear
+  385  sudo systemctl start bluetooth.service
+  386  adminb
+  387  sudo systemctl start bluetooth.service
+  388  clear
+  389  cd Project_Cyber/Project/spring-boot/SpringAiDemo
+  390  ls
+  391  code .
+  392  curl -fsSL https://ollama.com/install.sh | sh
+  393  sudo curl -fsSL https://ollama.com/install.sh | sh
+  394  sudo rm -rf /usr/local/lib/ollama\n
+  395  yt-dlp 
+  396  clear
+  397  cd ~/Music
+  398  ls
+  399  yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' https://youtu.be/518Mh12WATw?si=t_o1ssStSY0JlsjR
+  400  ls
+  401  open Jeet\ Gannguli,\ Mustafa\ Zahid\ -\ Jo\ Tere\ Sang\ \(Lyrics\)\ \[518Mh12WATw\].m4a
+  402  yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' https://youtu.be/AlvUuGJccKs?si=tZk731U1rpP8XnIS
+  403  yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' https://youtu.be/HP2zqQsrsyg?si=s2b9NsYlYDcAQUyi
+  404  yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' https://youtu.be/z-DmaH-19xo?si=Sc0dp1GL1WxB9Ddo
+  405  clear
+  406  yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' https://youtu.be/zZasH6qkn8M?si=e4BWcjff3Po3l4M3
+  407  ls
+  408  yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' https://youtu.be/vGO-ZNhh6tY?si=IMuE5aWE5e6sUaN3
+  409  yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' https://youtu.be/efdx68lDKBw?si=1Ku7fwiUOiodtnC2
+  410  yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' https://youtu.be/oycKbaNiR1Y?si=aUYmK5JjIUWPM5-F
+  411  ls
+  412  count
+  413  count-18
+  414  clear
+  415  ls
+  416  ls -la
+  417  yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' https://youtu.be/gVzbSTJKRPY?si=D6l9MTDpNQrW7bJZ
+  418  yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' https://youtu.be/vGO-ZNhh6tY?si=YgLZ-NKGYe12NoNQ
+  419  clear
+  420  cd ~/Project_Cyber/Project
+  421  ls
+  422  cd spring-boot
+  423  ls
+  424  cd Project admin
+  425  cd ../../
+  426  ls
+  427  rm details
+  428  sudo rm details
+  429  sudo rm rf details
+  430  sudo rm -rf details
+  431  ls
+  432  sudo apt install rhythmbox\n
+  433  sudo apt install audacious\n
+  434  sudo apt install clementine\n
+  435  sudo apt install cmus\n
+  436  sudo apt install mpd ncmpcpp\n
+  437  sudo apt remove mpd ncmpcpp\n
+  438  sudo apt remove cmus\n
+  439  sudo apt remove clementine\n
+  440  sudo apt remove rhythmbox\n
+  441  ls
+  442  cd Project_Cyber
+  443  ls
+  444  cd Project
+  445  ls
+  446  cd spring-boot
+  447  ls
+  448  cd Chat-bot
+  449  ls
+  450  cd gemini-chat
+  451  tree ../gemini-chat
+  452  ls
+  453  code .
+  454  ls
+  455  cd ../
+  456  ls
+  457  cd gemini-chat-frontend
+  458  ls
+  459  clear
+  460  ls
+  461  clear
+  462  npm run dev
+  463  code .
+  464  npm run dev
+  465  cd Project_Cyber/Project
+  466  ls
+  467  clder
+  468  clear
+  469  ls
+  470  cd spring-boot
+  471  ls
+  472  clear
+  473  ls
+  474  mkdir Fitness
+  475  ls
+  476  sudo systemctl start bluetooth.service
+  477  clear
+  478  ls
+  479  clear
+  480  ls
+  481  cd Fitness
+  482  ls
+  483  unzip userservice.zip
+  484  ls
+  485  clear
+  486  ls
+  487  rm userservice.zip
+  488  ls
+  489  sudo apt install pgadmin4
+  490  sudo apt-get install pgadmin4
+  491  sudo apt install postgresql
+  492  sudo apt-get install pgadmin3
+  493  sudo apt-get install pgagent
+  494  clear
+  495  sudo apt autoclean
+  496  sudo apt autoremove
+  497  pgadmin4
+  498  history
+  499  clear
+  500  sudo apt install pgadmin4
+  501  sudo curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
+  502  sudo apt-get update\nsudo apt install postgresql postgresql-contrib
+  503  sudo apt install pgadmin4
+  504  clear
+  505  sudo systemctl start postgresql.service
+  506  sudo -i -u postgres
+  507  sudo apt-get install postgresql-client
+  508  curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
+  509  sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'\n
+  510  sudo apt install pgadmin4
+  511  sudo apt install pgadmin4-desktop
+  512  sudo apt install pgadmin4-web 
+  513  clear
+  514  sudo apt install pgadmin4\n
+  515  pgadmin4\n
+  516  sudo pgadmin4\n
+  517  sudo apt install pgmodeler\n
+  518  pgmodeler\n
+  519  sudo apt update\nsudo apt install curl ca-certificates gnupg\n
+  520  curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/pgadmin-keyring.gpg\necho "deb [signed-by=/usr/share/keyrings/pgadmin-keyring.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/debian bookworm pgadmin4" | sudo tee /etc/apt/sources.list.d/pgadmin4.list\n
+  521  sudo apt update\n
+  522  sudo apt install pgadmin4-desktop\n
+  523  sudo apt install pgadmin4-web\nsudo /usr/pgadmin4/bin/setup-web.sh\n
+  524  deb [signed-by=/usr/share/keyrings/pgadmin-keyring.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/debian bookworm pgadmin4\n
+  525  sudo sed -i 's/bookworm/bullseye/' /etc/apt/sources.list.d/pgadmin4.list\n
+  526  deb [signed-by=/usr/share/keyrings/pgadmin-keyring.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/debian bookworm pgadmin4\n
+  527  curl https://www.pgadmin.org/static/packages_pgadmin_org.pub \\n  | gpg --dearmor \\n  | sudo tee /usr/share/keyrings/pgadmin-keyring.gpg > /dev/null\n
+  528  echo "deb [signed-by=/usr/share/keyrings/pgadmin-keyring.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/debian bullseye pgadmin4" | sudo tee /etc/apt/sources.list.d/pgadmin4.list\n
+  529  sudo apt update\n
+  530  docker run -p 8080:80 \\n  -e 'PGADMIN_DEFAULT_EMAIL=admin@domain.com' \\n  -e 'PGADMIN_DEFAULT_PASSWORD=securepassword' \\n  dpage/pgadmin4\n
+  531  docker ps -all
+  532  docker rm 0dc7d10b77c6
+  533  docker ps -all
+  534  clear
+  535  docker ps
+  536  docker ps -all
+  537  docker clear
+  538  ls
+  539  clear
+  540  docker images
+  541  docker rmi 37917e5f3734
+  542  clear
+  543  docker images
+  544  docker run -p 8080:8080 codeadmin870/chat-bot:02
+  545  clear
+  546  ls
+  547  cd ../
+  548  ls
+  549  cd portfolio
+  550  ls
+  551  npm run dev
+  552  ls
+  553  cd ../
+  554  ls
+  555  cd spring-boot
+  556  ls
+  557  cd Fitness
+  558  ls
+  559  cd userservice
+  560  ls
+  561  clear
+  562  history
